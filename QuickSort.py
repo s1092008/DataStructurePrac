@@ -11,7 +11,7 @@ def quickSort(A,l,r):
     j=r
     pivotkey=A[i]
     i+=1
-    while i<j:
+    while i<=j:
         while A[i]<=pivotkey:
             i+=1
         while A[j]>pivotkey:
